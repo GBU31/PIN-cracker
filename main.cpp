@@ -9,5 +9,4 @@ int main(){
     cin >> pl;
     system("clear");
     adb.cracker(pl);
-    
 }
