@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 class ADB{
 public:
     string GetStdoutFromCommand(string cmd) {
@@ -29,7 +28,6 @@ public:
     {
         string command = GetStdoutFromCommand("adb start-server");
     }
-
 
     void cracker(string filename) {
         string i;
