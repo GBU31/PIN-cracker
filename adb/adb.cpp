@@ -36,7 +36,7 @@ public:
 
         if (mf.is_open()) {
             while (getline (mf, i)) {
-                string c = "adb shell input text ";
+                string c = "adb shell input text";
                 c.append(i);
                 GetStdoutFromCommand(c.c_str());
                 GetStdoutFromCommand("adb shell input tap 356 662");
